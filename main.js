@@ -1,10 +1,10 @@
-// Change NAVBAR styles on scroll
+// Change NAVBAR styles on scroll (Visible,invisible navigation bar background on scroll)
 
 window.addEventListener('scroll', () => {
 	document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0);
 });
 
-// show/hide faq answer
+// show/hide faq answer (Frequently Asked Questions section)
 
 const faqs = document.querySelectorAll('.frequently');
 
@@ -12,7 +12,7 @@ faqs.forEach((frequently) => {
 	frequently.addEventListener('click', () => {
 		frequently.classList.toggle('open');
 
-		// change icon
+		// change icon (plus or minus icon depending on click)
 		const icon = frequently.querySelector('.frequently__icon i');
 		if (icon.className === 'uil uil-plus') {
 			icon.className = 'uil uil-minus';
