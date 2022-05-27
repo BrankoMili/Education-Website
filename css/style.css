@@ -320,7 +320,7 @@ header {
 	margin-top: 0.8 rem;
 	display: none;
 }
-
+/* ===========  Toggle css property in JAVASCRIPT on click event ==========*/
 .frequently.open p {
 	display: block;
 }
