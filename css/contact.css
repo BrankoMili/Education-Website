@@ -82,6 +82,15 @@ input, textarea {
     color: var(--color-white);
 }
 
+textarea {
+    resize: vertical;
+    height: 150px;
+    max-height: 190px;
+    min-height: 150px;
+}
+
+
+
 .contact__form .btn {
     width: max-content;
     margin-top: 1rem;

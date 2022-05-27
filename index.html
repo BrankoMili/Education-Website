@@ -23,7 +23,7 @@
       rel="stylesheet"
     />
 
-    <!-- SWIPER JS-->
+    <!-- SWIPER JS (CDN LINK)-->
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
@@ -419,7 +419,10 @@
           </div>
         </article>
       </div>
+      
+      <!-- ================Swiper pagination=============-->
       <div class="swiper-pagination"></div>
+
     </section>
 
     <!-- ================END OF TESTEMONIALS =============-->
@@ -478,8 +481,15 @@
       </div>
     </footer>
 
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Eternal JS file -->
     <script src="./main.js"></script>
+
+
+
+    <!-- SWIPER JS (JAVASCRIPT CODE) -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
 
     <script>
       var swiper = new Swiper(".mySwiper", {
@@ -489,7 +499,7 @@
           el: ".swiper-pagination",
           clickable: true,
         },
-        // when window width is >= 600px
+        // when window width is >= 600px (PHONE WIDTH)
         breakpoints: {
           600: {
             slidesPerView: 2,
@@ -497,5 +507,7 @@
         },
       });
     </script>
+
+
   </body>
 </html>
