@@ -1,4 +1,6 @@
 # Responsive Education-Website
+Website link: https://education-responsive-website-project.netlify.app/
+
 Prototype for interactive responsive website about programming courses. 
 Used icons from a CDN resource on the internet website (Iconscout).
 Linked (used) font from Google Fonts API. 
