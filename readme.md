@@ -1,5 +1,5 @@
 # Responsive Education-Website
-Website link: https://education-responsive-website-project.netlify.app/
+Website link: https://education-responsive-website-project.netlify.app/ .
 Website is made with Egator tutorial.
 
 Prototype for interactive responsive website about programming courses. 
